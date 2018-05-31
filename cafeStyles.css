@@ -1,0 +1,87 @@
+
+
+body
+{
+background-color: #D7BDE2;
+
+	font-family: Calibri;
+	font-weight: bold;
+	margin: 30px;
+	transition-property: background-color;
+	transition-duration: 4s;
+	transition-timing-function:linear;
+	
+	
+}
+h1
+{
+	text-align: center;
+	font-size:  220%;
+	
+}
+td
+{
+	border: 2px ridge purple;
+	text-align: center;
+}
+#cafeSpecifics
+{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align: center;
+	
+	
+}
+#employeeAppPic
+{
+	border: 2px solid gray;
+	width: 200;
+	height:250;
+	padding:10;
+	text-align: center;
+	background-color: #faebd7;
+	float: right;
+	width: 20%;	
+}
+#employeeAppPic:hover
+{
+	transform: skewX(15deg);
+}
+#topParagraph
+{
+	text-align: center;
+	position: relative;
+}
+#details
+{
+	float: left;
+	width: 60%;
+}
+
+#prices
+{
+	float: right;
+	width: 25%;
+	border-collapse: collapse;
+	border: 2px ridge purple;
+	text-align: center;
+
+	
+}
+h3#contactUs
+{
+	
+	
+	
+	background: url(contact_us_icon.png) no-repeat;
+	text-indent: 100%;
+	white-space: no-wrap;
+	overflow: hidden;
+	
+	
+}	
+#extras
+{
+	float: left;
+	width: 60%;
+}
